@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TubeGuessr</title>
+
+    <!-- Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+      }
+      #game {
+        padding: 12px;
+        background: #111;
+        color: #fff;
+      }
+      #map {
+        height: calc(100vh - 60px);
+      }
+      button {
+        margin-left: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game">
+      <strong id="prompt">Where is: Oxford Circus?</strong>
+      <button id="submit" disabled>Submit guess</button>
+      <span id="result"></span>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+      // 1. Create map centered on London
+      const map = L.map("map").setView([51.5074, -0.1278], 11);
+
+      // 2. Free OpenStreetMap tiles
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+      }).addTo(map);
+
+      const noLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap contributors & CARTO'});
+
+      map.addLayer(noLabels);
+
+      // 3. Game state
+      let guessMarker = null;
+      let guessedLatLng = null;
+
+      // Example station (replace with random selection later)
+      const station = {
+        name: "Oxford Circus",
+        lat: 51.515419,
+        lng: -0.141099,
+      };
+
+      // 4. Handle map click
+      map.on("click", (e) => {
+        guessedLatLng = e.latlng;
+
+        if (guessMarker) {
+          map.removeLayer(guessMarker);
+        }
+
+        guessMarker = L.marker(e.latlng).addTo(map);
+        document.getElementById("submit").disabled = false;
+      });
+
+      // 5. Distance calculation (meters)
+      function distance(a, b) {
+        return map.distance(a, b);
+      }
+
+      // 6. Submit guess
+      document.getElementById("submit").onclick = () => {
+        const real = L.latLng(station.lat, station.lng);
+        const d = Math.round(distance(guessedLatLng, real));
+
+        // Show real location
+        L.circleMarker(real, {
+          radius: 8,
+          color: "red",
+        }).addTo(map);
+        map.removeLayer(noLabels)
+
+        document.getElementById("result").textContent = ` — ${d} m away`;
+      };
+    </script>
+  </body>
+</html>
