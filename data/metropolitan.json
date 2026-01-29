@@ -4,102 +4,102 @@
     {
       "type": "Feature",
       "properties": { "name": "Amersham", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.674125, -0.607714] }
+      "geometry": { "type": "Point", "coordinates": [-0.607714, 51.674125] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Chesham", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.70524, -0.611115] }
+      "geometry": { "type": "Point", "coordinates": [-0.611115, 51.70524] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Chalfont & Latimer", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.667983, -0.560689] }
+      "geometry": { "type": "Point", "coordinates": [-0.560689, 51.667983] }
     }, 
     {
       "type": "Feature",
       "properties": { "name": "Chorleywood", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.654357, -0.518461] }
+      "geometry": { "type": "Point", "coordinates": [-0.518461, 51.654357] }
     }, 
     {
       "type": "Feature",
       "properties": { "name": "Rickmansworth", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.640206, -0.473703] }
+      "geometry": { "type": "Point", "coordinates": [-0.473703, 51.640206] }
     }, 
     {
       "type": "Feature",
       "properties": { "name": "Watford", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.657444, -0.417377] }
+      "geometry": { "type": "Point", "coordinates": [-0.417377, 51.657444] }
     }, 
     {
       "type": "Feature",
       "properties": { "name": "Croxley", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.647042, -0.441718] }
+      "geometry": { "type": "Point", "coordinates": [-0.441718, 51.647042] }
     }, 
     {
       "type": "Feature",
       "properties": { "name": "Moor Park", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.629843, -0.432454] }
+      "geometry": { "type": "Point", "coordinates": [-0.432454, 51.629843] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Northwood", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.611051, -0.423829] }
+      "geometry": { "type": "Point", "coordinates": [-0.423829, 51.611051] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Northwood Hills", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.60057, -0.409464] }
+      "geometry": { "type": "Point", "coordinates": [-0.409464, 51.60057] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Pinner", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.5929, -0.381161] }
+      "geometry": { "type": "Point", "coordinates": [-0.381161, 51.5929] }
     }, 
     {
       "type": "Feature",
       "properties": { "name": "North Harrow", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.58487, -0.362408] }
+      "geometry": { "type": "Point", "coordinates": [-0.362408, 51.58487] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Uxbridge", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.546564, -0.477949] }
+      "geometry": { "type": "Point", "coordinates": [-0.477949, 51.546564] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Hillingdon", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.553713, -0.449828] }
+      "geometry": { "type": "Point", "coordinates": [-0.449828, 51.553713] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Ickenham", "line": "Metropolitan"},
-      "geometry": { "type": "Point", "coordinates": [51.56199, -0.442001]}
+      "geometry": { "type": "Point", "coordinates": [-0.442001, 51.56199]}
     },
     {
       "type": "Feature",
       "properties": { "name": "Ruislip", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.571352, -0.421898] }
+      "geometry": { "type": "Point", "coordinates": [-0.421898, 51.571352] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Ruislip Manor", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.573201, -0.412973] }
+      "geometry": { "type": "Point", "coordinates": [-0.412973, 51.573201] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Eastcote", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.576505, -0.397373] }
+      "geometry": { "type": "Point", "coordinates": [-0.397373, 51.576505] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Rayners Lane", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.575145, -0.371127] }
+      "geometry": { "type": "Point", "coordinates": [-0.371127, 51.575145] }
     },
     {
       "type": "Feature",
       "properties": { "name": "West Harrow", "line": "Metropolitan" },
-      "geometry": { "type": "Point", "coordinates": [51.579709, -0.3534] }
+      "geometry": { "type": "Point", "coordinates": [-0.3534, 51.579709] }
     }
   ]
 }
