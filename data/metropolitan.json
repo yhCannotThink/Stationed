@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Amersham", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.674125, -0.607714] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Chesham", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.70524, -0.611115] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Chalfont & Latimer", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.667983, -0.560689] }
+    }, 
+    {
+      "type": "Feature",
+      "properties": { "name": "Chorleywood", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.654357, -0.518461] }
+    }, 
+    {
+      "type": "Feature",
+      "properties": { "name": "Rickmansworth", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.640206, -0.473703] }
+    }, 
+    {
+      "type": "Feature",
+      "properties": { "name": "Watford", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.657444, -0.417377] }
+    }, 
+    {
+      "type": "Feature",
+      "properties": { "name": "Croxley", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.647042, -0.441718] }
+    }, 
+    {
+      "type": "Feature",
+      "properties": { "name": "Moor Park", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.629843, -0.432454] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Northwood", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.611051, -0.423829] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Northwood Hills", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.60057, -0.409464] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Pinner", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.5929, -0.381161] }
+    }, 
+    {
+      "type": "Feature",
+      "properties": { "name": "North Harrow", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.58487, -0.362408] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Uxbridge", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.546564, -0.477949] }
+    }
+  ]
+}
