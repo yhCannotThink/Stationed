@@ -100,6 +100,76 @@
       "type": "Feature",
       "properties": { "name": "West Harrow", "line": "Metropolitan" },
       "geometry": { "type": "Point", "coordinates": [-0.3534, 51.579709] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Harrow-on-the-Hill", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.336473, 51.579245] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Northwick Park", "line": "Metropolitan"},
+      "geometry": { "type": "Point", "coordinates": [-0.318056, 51.578479]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Preston Road", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.295107, 51.57197] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Wembley Park", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.279262, 51.563196] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Finchley Road", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.179555, 51.546854] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Baker Street", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.15713, 51.522881] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Great Portland Street", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.144262, 51.523838] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Euston Square" , "line": "Metropolitan"},
+      "geometry": { "type": "Point", "coordinates": [-0.135772, 51.525601] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "King's Cross St. Pancras", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.123195, 51.530661] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Farringdon" , "line": "Metropolitan"},
+      "geometry": { "type": "Point", "coordinates": [-0.104828, 51.520204] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Barbican" , "line": "Metropolitan"},
+      "geometry": { "type": "Point", "coordinates": [-0.09753, 51.520311] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Moorgate" , "line": "Metropolitan"},
+      "geometry": { "type": "Point", "coordinates": [-0.088322, 51.518174] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Liverpool Street", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.083182, 51.517371] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Aldgate", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [-0.075689, 51.514244] }
     }
   ]
 }
