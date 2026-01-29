@@ -65,6 +65,41 @@
       "type": "Feature",
       "properties": { "name": "Uxbridge", "line": "Metropolitan" },
       "geometry": { "type": "Point", "coordinates": [51.546564, -0.477949] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Hillingdon", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.553713, -0.449828] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ickenham", "line": "Metropolitan"},
+      "geometry": { "type": "Point", "coordinates": [51.56199, -0.442001]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ruislip", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.571352, -0.421898] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ruislip Manor", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.573201, -0.412973] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Eastcote", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.576505, -0.397373] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Rayners Lane", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.575145, -0.371127] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "West Harrow", "line": "Metropolitan" },
+      "geometry": { "type": "Point", "coordinates": [51.579709, -0.3534] }
     }
   ]
 }
