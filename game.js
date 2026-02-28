@@ -17,6 +17,59 @@ stations.forEach((s, i) => {
   }
 });
 
+// Testing station numbers
+fetch('./data/stations.json')
+  .then(response => response.json())
+  .then(data => {
+    let allStations = data.features;
+    verifyStationCount(allStations);
+  })
+  .catch(error => {
+    console.error('Error loading station data for verification:', error);
+  }
+)
+
+function verifyStationCount(allStations) {
+  if (allStations.length != 272) {
+    console.warn("Expected 272 stations, but got", allStations.length);
+  }
+  metropolitan = []
+  piccadilly = []
+  hammersmithAndCity = []
+  district = []
+  circle = []
+  northern = []
+  central = []
+  bakerloo = []
+  jubilee = []
+  victoria = []
+  waterlooAndCity = []
+  allStations.forEach((s, i) => {
+    if (s.properties.lines.includes("Metropolitan")) metropolitan.push(s);
+    if (s.properties.lines.includes("Piccadilly")) piccadilly.push(s);
+    if (s.properties.lines.includes("Hammersmith & City")) hammersmithAndCity.push(s);
+    if (s.properties.lines.includes("District")) district.push(s);
+    if (s.properties.lines.includes("Circle")) circle.push(s);
+    if (s.properties.lines.includes("Northern")) northern.push(s);
+    if (s.properties.lines.includes("Central")) central.push(s);
+    if (s.properties.lines.includes("Bakerloo")) bakerloo.push(s);
+    if (s.properties.lines.includes("Jubilee")) jubilee.push(s);
+    if (s.properties.lines.includes("Victoria")) victoria.push(s);
+    if (s.properties.lines.includes("Waterloo & City")) waterlooAndCity.push(s);
+  });
+  if (metropolitan.length != 34) console.warn("Expected 34 Metropolitan stations, but got", metropolitan.length);
+  if (piccadilly.length != 53) console.warn("Expected 53 Piccadilly stations, but got", piccadilly.length);
+  if (hammersmithAndCity.length != 29) console.warn("Expected 29 Hammersmith & City stations, but got", hammersmithAndCity.length);
+  if (district.length != 60) console.warn("Expected 60 District stations, but got", district.length);
+  if (circle.length != 36) console.warn("Expected 36 Circle stations, but got", circle.length);
+  if (northern.length != 50) console.warn("Expected 50 Northern stations, but got", northern.length);
+  if (central.length != 49) console.warn("Expected 49 Central stations, but got", central.length);
+  if (bakerloo.length != 25) console.warn("Expected 25 Bakerloo stations, but got", bakerloo.length);
+  if (jubilee.length != 27) console.warn("Expected 27 Jubilee stations, but got", jubilee.length);
+  if (victoria.length != 16) console.warn("Expected 16 Victoria stations, but got", victoria.length);
+  if (waterlooAndCity.length != 2) console.warn("Expected 2 Waterloo & City stations, but got", waterlooAndCity.length);
+}
+
 // Game state
 var currentStation = null;
 var guessMarker = null;

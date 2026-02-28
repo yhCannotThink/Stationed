@@ -1,0 +1,795 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cockfosters",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUCKS",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.148519, 51.651357] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakwood",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUOAK",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.131257, 51.64731] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southgate",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUSGT",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [0.127818, 51.632295] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arnos Grove",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUASG",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.133091, 51.616416] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bounds Green",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUBDS",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.12491, 51.607375] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wood Green",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUWOG",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.109777, 51.597403] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turnpike Lane",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUTPN",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.102745, 51.590132] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manor House",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUMRH",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.096404, 51.570329] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Finsbury Park",
+        "lines": ["Piccadilly", "Victoria"],
+        "naptan": "940GZZLUFPK",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.106441, 51.564824] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arsenal",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUASL",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.107498, 51.558379] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holloway Road",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHLW",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.113007, 51.552862] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caledonian Road",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUCAR",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.118366, 51.548473] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "King's Cross St Pancras",
+        "lines": ["Piccadilly", "Metropolitan", "Hammersmith & City", "Circle", "Northern", "Victoria"],
+        "naptan": "940GZZLUKSX",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.12395, 51.530605] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Russell Square",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLURSQ",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.12424, 51.52305] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holborn",
+        "lines": ["Piccadilly", "Central"],
+        "naptan": "940GZZLUHBN",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.12, 51.5174] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Covent Garden",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUCOV",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.1243, 51.5131] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leicester Square",
+        "lines": ["Piccadilly", "Northern"],
+        "naptan": "940GZZLULSQ",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.1281, 51.5113] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piccadilly Circus",
+        "lines": ["Piccadilly", "Bakerloo"],
+        "naptan": "940GZZLUPCC",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.134, 51.5101] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Green Park",
+        "lines": ["Piccadilly", "Victoria", "Jubilee"],
+        "naptan": "940GZZLUGPK",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.1428, 51.5067] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hyde Park Corner",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHPC",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.1527, 51.5027] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knightsbridge",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUKNB",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.1607, 51.5016] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Kensington",
+        "lines": ["Piccadilly", "District", "Circle"],
+        "naptan": "940GZZLUSKS",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.1738, 51.4941] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gloucester Road",
+        "lines": ["Piccadilly", "District", "Circle"],
+        "naptan": "940GZZLUGTR",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.1829, 51.4945] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Earl's Court",
+        "lines": ["Piccadilly", "District"],
+        "naptan": "940GZZLUECT",
+        "zones": [1, 2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.193, 51.492] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barons Court",
+        "lines": ["Piccadilly", "District"],
+        "naptan": "940GZZLUBSC",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2139, 51.4905] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hammersmith",
+        "lines": ["Piccadilly", "District", "Hammersmith & City", "Circle"],
+        "naptan": "940GZZLUHSD",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2243, 51.4936] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turnham Green",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUTGH",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2547, 51.4951] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acton Town",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUATW",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2804, 51.5031] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ealing Common",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUEAC",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2887, 51.5101] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Ealing",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUNEL",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2882, 51.5175] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Royal",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUPRL",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2841, 51.5267] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alperton",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUALP",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.2996, 51.5407] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sudbury Town",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUSTY",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.316, 51.5507] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sudbury Hill",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUSDH",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3367, 51.5569] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Harrow",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUSHR",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3521, 51.5646] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Ealing",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUSEA",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3072, 51.5011] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northfields",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUNFD",
+        "zones": [3]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3148, 51.4994] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boston Manor",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUBOS",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3247, 51.4957] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osterley",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUOST",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3522, 51.4813] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hounslow East",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHWE",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3564, 51.4733] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hounslow Central",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHWC",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3666, 51.4713] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hounslow West",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHWW",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.385, 51.4737] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hatton Cross",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHTX",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.4237, 51.4669] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heathrow Terminal 4",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHR4",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.4462, 51.4597] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heathrow Terminals 2 & 3",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHR2",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.4524, 51.4713] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heathrow Terminal 5",
+        "lines": ["Piccadilly"],
+        "naptan": "940GZZLUHR5",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.488, 51.4715] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amersham",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUAMS",
+        "zones": [9]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.607714, 51.674125] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chesham",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUCSM",
+        "zones": [9]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.611115, 51.70524] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chalfont & Latimer",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUCAL",
+        "zones": [8, 9]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.560689, 51.667983] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chorleywood",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUCHW",
+        "zones": [7]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.518461, 51.654357] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rickmansworth",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLURKW",
+        "zones": [7]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.473703, 51.640206] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Watford",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUWAF",
+        "zones": [7]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.417377, 51.657444] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Croxley",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUCKY",
+        "zones": [7]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.441718, 51.647042] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moor Park",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUMPK",
+        "zones": [6, 7]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.432454, 51.629843] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northwood",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUNDW",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.423829, 51.611051] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northwood Hills",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUNWH",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.409464, 51.60057] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pinner",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUPNR",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.381161, 51.5929] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Harrow",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUNHA",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.362408, 51.58487] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uxbridge",
+        "lines": ["Metropolitan", "Piccadilly"],
+        "naptan": "940GZZLUUXB",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.477949, 51.546564] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hillingdon",
+        "lines": ["Metropolitan", "Piccadilly"],
+        "naptan": "940GZZLUHGD",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.449828, 51.553713] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ickenham",
+        "lines": ["Metropolitan", "Piccadilly"],
+        "naptan": "940GZZLUICK",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.442001, 51.56199] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ruislip",
+        "lines": ["Metropolitan", "Piccadilly"],
+        "naptan": "940GZZLURUI",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.421898, 51.571352] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ruislip Manor",
+        "lines": ["Metropolitan", "Piccadilly"],
+        "naptan": "940GZZLURSM",
+        "zones": [6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.412973, 51.573201] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eastcote",
+        "lines": ["Metropolitan", "Piccadilly"],
+        "naptan": "940GZZLUEAE",
+        "zones": [5, 6]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.397373, 51.576505] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rayners Lane",
+        "lines": ["Metropolitan", "Piccadilly"],
+        "naptan": "940GZZLURYL",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.371127, 51.575145] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Harrow",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUWHW",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.3534, 51.579709] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harrow-on-the-Hill",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUHOH",
+        "zones": [5]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.336473, 51.579245] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northwick Park",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUNWP",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.318056, 51.578479] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Preston Road",
+        "lines": ["Metropolitan"],
+        "naptan": "940GZZLUPRD",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.295107, 51.57197] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wembley Park",
+        "lines": ["Metropolitan", "Jubilee"],
+        "naptan": "940GZZLUWYP",
+        "zones": [4]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.279262, 51.563196] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Finchley Road",
+        "lines": ["Metropolitan", "Jubilee"],
+        "naptan": "940GZZLUFNR",
+        "zones": [2]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.179555, 51.546854] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baker Street",
+        "lines": ["Metropolitan", "Jubilee", "Bakerloo", "Circle", "Hammersmith & City"],
+        "naptan": "940GZZLUBST",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.15713, 51.522881] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Great Portland Street",
+        "lines": ["Metropolitan", "Circle", "Hammersmith & City"],
+        "naptan": "940GZZLUGPS",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.144262, 51.523838] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Euston Square",
+        "lines": ["Metropolitan", "Circle", "Hammersmith & City"],
+        "naptan": "940GZZLUESQ",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.135772, 51.525601] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Farringdon",
+        "lines": ["Metropolitan", "Circle", "Hammersmith & City"],
+        "naptan": "940GZZLUFCN",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.104828, 51.520204] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barbican",
+        "lines": ["Metropolitan", "Circle", "Hammersmith & City"],
+        "naptan": "940GZZLUBBN",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.09753, 51.520311] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moorgate",
+        "lines": ["Metropolitan", "Circle", "Hammersmith & City"],
+        "naptan": "940GZZLUMGT",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.088322, 51.518174] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liverpool Street",
+        "lines": ["Metropolitan", "Circle", "Hammersmith & City"],
+        "naptan": "940GZZLULVT",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.083182, 51.517371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aldgate",
+        "lines": ["Metropolitan", "Circle"],
+        "naptan": "940GZZLUALD",
+        "zones": [1]
+      },
+      "geometry": { "type": "Point", "coordinates": [-0.075689, 51.514244] }
+    }
+  ]
+}
